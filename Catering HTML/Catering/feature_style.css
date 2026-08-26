@@ -1,0 +1,72 @@
+.feature-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.feature-card {
+    margin: 18px 0;
+    padding: 20px;
+    border: 1px solid #d4e0da;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.feature-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.feature-form input,
+.feature-form select,
+.feature-form textarea {
+    display: block;
+    width: 100%;
+    max-width: 520px;
+    margin-top: 6px;
+    padding: 9px;
+}
+
+.feature-button {
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    background: #176b4d;
+    color: white;
+    cursor: pointer;
+}
+
+.feature-success,
+.feature-error {
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+
+.feature-success {
+    color: #145c3f;
+    background: #e5f5ed;
+}
+
+.feature-error {
+    color: #842020;
+    background: #fdeaea;
+}
+
+.feature-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.feature-table th,
+.feature-table td {
+    padding: 10px;
+    border-bottom: 1px solid #d4e0da;
+    text-align: left;
+}
+
+.feature-total {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
